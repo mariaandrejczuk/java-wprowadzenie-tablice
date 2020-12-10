@@ -1,9 +1,6 @@
 class PostalCode {
     public static void main (String args[]) {
-        
-        //czy ilość zadeklarowanych zmiennych musi być taka sama jak rozmiar tabeli? 
-        //jaki jest sposób na uzyskanie wielu kodów pocztowych 5-cyfrowych (czyli new int[5]), będących kombinacją 10 różnych cyfr (czyli 10 róznych deklaracji od [0] do [9])?
-        
+                
         int[] postal = new int[5]; 
         
         postal [0] = 726;
