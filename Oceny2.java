@@ -19,17 +19,20 @@ class Oceny2{
         
         //popraw druga ocenę na 5
         grades[1] = 5;
-                
-       
-        // posortuj od najmniejszejdo największej: 
+        System.out.println("Oceny po poprawce drugiej na 5: "+grades[0]+", "+grades[1]+", "+grades[2]+", "+grades[3]+", "+grades[4]);        
+        System.out.print(" ");
+        
+        // posortuj od najmniejszej do największej: 
         byte temp;
         temp = grades[0]; 
         grades[0] = grades [4];
         grades [4] = temp; 
+        grades[1] = 1; 
+        grades[2] = 2; 
+        grades[3] = 3; 
                       
-        System.out.println("Oceny od najmniejszej do największej: ");
-        System.out.print(grades[0]+", "+grades[1]+", "+grades[2]+", "+grades[3]+", "grades[4]);
-        System.out.print();
+        System.out.println("Oceny od najmniejszej do największej: "+grades[0]+", "+grades[1]+", "+grades[2]+", "+grades[3]+", "+grades[4]);
+        System.out.print(" ");
        //" "+"\n"
         
         
