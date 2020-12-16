@@ -1,18 +1,7 @@
-/*
-Stwórz krzyżówkę. które hasłami będą: wilk, kot, żyrafa (typy proste). 
-'----
-wilk
-kot
-żyrafa
-'----
-1) wyświetl trzecią literę drugiego hasła, 
-2) wyświetl pierwszą literę pierwszego hasła, 
-3) zamień ostatnią literę trzeciego hasła na 'y', 
-4) wyświetl długość drugiego hasła krzyżówki, 
-5) wyświetl całą krzyżówkę.  */
 
-class Crosswords{
-        public static void main (String args []) {
+
+  class Crosswords{
+        public static void main (String args[]) {
         char [] [] crossw = new char [3] []; 
            
          crossw [0] = new char [4]; 
@@ -35,10 +24,10 @@ class Crosswords{
         crossw [2] [4] = 'f';
         crossw [2] [5] = 'a';
         
-        //wyświetl trzecią literę drugiego hasła:
+        //wy�wietl trzeci� liter� trzeciego has�a:
         /*
         System.out.println();
-        System.out.print("Trzecia litera drugiego hasła: ");
+        System.out.print("Trzecia litera drugiego has�a: ");
         System.out.println(crossw [1][2]);
         System.out.println();
         */
@@ -46,9 +35,9 @@ class Crosswords{
         char trzeciaDrugiego = crossw[1][2];
         System.out.println("Trzecia litera drugiego has�a: "+trzeciaDrugiego); 
         
-        //wyświetl pierwszą literę pierwszego hasła:
+        //wy�wietl pierwsz� liter� pierwszego has�a:
         /*
-        System.out.print("Pierwsza litera pierwszego hasła: ");
+        System.out.print("Pierwsza litera pierwszego has�a: ");
         System.out.println(crossw [0][0]);
         System.out.println();
         */
