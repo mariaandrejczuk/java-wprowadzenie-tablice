@@ -44,7 +44,7 @@ class Crosswords{
         */
         System.out.println("------");
         char trzeciaDrugiego = crossw[1][2];
-        System.out.println("Trzecia litera drugiego hasÅ‚a: "+trzeciaDrugiego); 
+        System.out.println("Trzecia litera drugiego has³a: "+trzeciaDrugiego); 
         
         //wyÅ›wietl pierwszÄ… literÄ™ pierwszego hasÅ‚a:
         /*
@@ -53,17 +53,17 @@ class Crosswords{
         System.out.println();
         */
         char pierwszaPierwszego = crossw[0][0];
-        System.out.println("Pierwsza litera pierwszego hasÅ‚a: "+pierwszaPierwszego); 
+        System.out.println("Pierwsza litera pierwszego has³a: "+pierwszaPierwszego); 
         
         
-        //zamieÅ„ ostatniÄ… literÄ™ trzeciego hasÅ‚a na 'y':
-        crossw [1] [2] = 'y';
+        //zamieñ ostatnia literê trzeciego has³a na 'y':
+        crossw [2] [5] = 'y';
         
-        //wyÅ›wietl dÅ‚ugoÅ›Ä‡ drugiego hasÅ‚a krzyÅ¼Ã³wki:
+        //wyœwietl d³ugoœc drugiego has³a krzy¿ówki:
         int dlugoscDrugiego = crossw[1].length; 
-        System.out.println("DÅ‚ugoÅ›Ä‡ drugiego hasÅ‚a krzyÅ¼Ã³wki: "+dlugoscDrugiego); 
+        System.out.println("D³ugoœæ drugiego has³a krzy¿ówki: "+dlugoscDrugiego); 
         
-        //wyÅ›wietl caÅ‚Ä… krzyÅ¼Ã³wkÄ™:
+        //wyœwietl ca³¹ krzy¿ówkê:
          System.out.println("------");
          System.out.println(crossw [0][0]+" "+crossw [0][1]+" "+crossw [0][2]+" "+crossw [0][3]);
          System.out.println(crossw [1][0]+" "+crossw [1][1]+" "+crossw [1] [2]);
