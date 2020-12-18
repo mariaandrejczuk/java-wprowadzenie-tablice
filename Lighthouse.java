@@ -2,7 +2,7 @@ class Lighthouse{
     public static void main(String args[]) {
            int[][] tab = new int [10][10];
            
-           //latarnia       -  liczba, ktÃ³ra okreÅ›la, ile statkÃ³w powinno byÄ‡ w zasiÄ™gu
+           //latarnia       -  liczba, która okreœla, ile statków powinno byæ w zasiêgu
            //puste pole  -   -1
            //statek         -   -2
            
@@ -118,12 +118,12 @@ class Lighthouse{
            tab[9][8] = -1;
            tab[9][9] = 3;
            
-           //wyÅ›wietlenie:
+           //wyœwietlenie:
            //sprawdzamy warunki:
-           //  jeÅ¼eli jest -1 to wyÅ›wietl " "; 
-           //  jeÅ¼eli jest -2 to wyÅ›wietl "X"; 
-           //  w przeciwnym wypadku wyÅ›wietl to, co masz przypisane; 
-           System.out.println("WyÅ›wietl tablicÄ™ w I wersji: ");
+           //  je¿eli jest -1 to wyœwietl " "; 
+           //  je¿eli jest -2 to wyœwietl "X"; 
+           //  w przeciwnym wypadku wyœwietl to, co masz przypisane; 
+           System.out.println("Wyœwietl tablicê w I wersji: ");
            System.out.println(tab [0] [0]+" "+tab [0] [1]+" "+tab [0] [2]+" "+tab [0] [3]+" "+tab [0] [4]+" "+tab [0] [5]+" "+tab [0] [6]+" "+tab [0] [7]+" "+tab [0] [8]+" "+tab [0] [9]); 
            System.out.println(tab [1] [0]+" "+tab [1] [1]+" "+tab [1] [2]+" "+tab [1] [3]+" "+tab [1] [4]+" "+tab [1] [5]+" "+tab [1] [6]+" "+tab [1] [7]+" "+tab [1] [8]+" "+tab [1] [9]); 
            System.out.println(tab [2] [0]+" "+tab [2] [1]+" "+tab [2] [2]+" "+tab [2] [3]+" "+tab [2] [4]+" "+tab [2] [5]+" "+tab [2] [6]+" "+tab [2] [7]+" "+tab [2] [8]+" "+tab [2] [9]); 
@@ -169,7 +169,7 @@ class Lighthouse{
            tab2[9][7] = 'O';
            tab2[9][9] = 'X';
         
-           System.out.println("WyÅ›wietl tablicÄ™ w II wersji: ");
+           System.out.println("Wyœwietl tablicê w II wersji: ");
            System.out.println(tab2 [0] [0]+" "+tab2 [0] [1]+" "+tab2 [0] [2]+" "+tab2 [0] [3]+" "+tab2 [0] [4]+" "+tab2 [0] [5]+" "+tab2 [0] [6]+" "+tab2 [0] [7]+" "+tab2 [0] [8]+" "+tab2 [0] [9]); 
            System.out.println(tab2 [1] [0]+" "+tab2 [1] [1]+" "+tab2 [1] [2]+" "+tab2 [1] [3]+" "+tab2 [1] [4]+" "+tab2 [1] [5]+" "+tab2 [1] [6]+" "+tab2 [1] [7]+" "+tab2 [1] [8]+" "+tab2 [1] [9]); 
            System.out.println(tab2 [2] [0]+" "+tab2 [2] [1]+" "+tab2 [2] [2]+" "+tab2 [2] [3]+" "+tab2 [2] [4]+" "+tab2 [2] [5]+" "+tab2 [2] [6]+" "+tab2 [2] [7]+" "+tab2 [2] [8]+" "+tab2 [2] [9]); 
